@@ -17,12 +17,20 @@ const albumBuyLink = "https://www.flyingnun.co.nz/products/miss-june-bad-luck-pa
 // date format: YYYY-MM-DD
 const upcomingShows = [
     {
-        date : "2023-09-02", 
+        date : "2023-09-22", 
         venue : "Neck Of The Woods", 
         country : "New Zealand", 
         city : "Auckland",
-        ticketURL : "https://www.https://www.undertheradar.co.nz/ticket/21535/Miss-June---MLE-Single-Release-Tour.utr.co.nz/gig/85872/Miss-June---MLE-Single-Release-Tour.utr",
+        ticketURL : "https://www.undertheradar.co.nz/ticket/21535/Miss-June---MLE-Single-Release-Tour.utr.co.nz/gig/85872/Miss-June---MLE-Single-Release-Tour.utr",
         soldOut : false
+    },
+    {
+      date : "2023-09-23", 
+      venue : "Last Place", 
+      country : "New Zealand", 
+      city : "Hamilton",
+      ticketURL : "https://www.undertheradar.co.nz/index.php?task=searchall&q=miss+june",
+      soldOut : false
     },
     {
       date : "2023-09-30", 
@@ -45,7 +53,7 @@ const upcomingShows = [
       venue : "Wunderbar", 
       country : "New Zealand", 
       city : "Lyttelton",
-      ticketURL : "https://www.https://www.undertheradar.co.nz/ticket/21540/Miss-June---MLE-Single-Release-Tour.utr.co.nz/gig/85874/Miss-June---MLE-Single-Release-Tour---All-Ages.utr",
+      ticketURL : "https://www.undertheradar.co.nz/ticket/21540/Miss-June---MLE-Single-Release-Tour.utr.co.nz/gig/85874/Miss-June---MLE-Single-Release-Tour---All-Ages.utr",
       soldOut : false
     },
     {
