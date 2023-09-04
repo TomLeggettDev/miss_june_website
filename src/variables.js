@@ -16,54 +16,46 @@ const albumBuyLink = "https://www.flyingnun.co.nz/products/miss-june-bad-luck-pa
 // #~#~#~#~#~#~#~#~#~#~#~# SHOWS #~#~#~#~#~#~#~#~#~#~#~#
 // date format: YYYY-MM-DD
 const upcomingShows = [
-    // {
-    //     date : "2023-03-03", 
-    //     venue : "Whammy Bar", 
-    //     country : "New Zealand", 
-    //     city : "Auckland",
-    //     ticketURL : "https://www.undertheradar.co.nz/ticket/19531/Miss-June.utr",
-    //     soldOut : true
-    // },
-    // {
-    //     date : "2023-03-09", 
-    //     venue : "San Fran", 
-    //     country : "New Zealand", 
-    //     city : "Wellington",
-    //     ticketURL : "https://www.undertheradar.co.nz/ticket/19532/Miss-June.utr",
-    //     soldOut : false
-    // },
-    // {
-    //     date : "2023-03-11", 
-    //     venue : "Outerfields Western Springs Park", 
-    //     country : "New Zealand", 
-    //     city : "Auckland",
-    //     ticketURL : "www.google.com",
-    //     soldOut : false
-    // },
-    // {
-    //   date : "2023-10-13", 
-    //   venue : "James Mum's House", 
-    //   country : "New Zealand", 
-    //   city : "Auckland",
-    //   ticketURL : "https://www.undertheradar.co.nz/ticket/19531/Miss-June.utr",
-    //   soldOut : true
-    // },
-    // {
-    //     date : "2023-11-01", 
-    //     venue : "Saddam's Hiding Place", 
-    //     country : "طعمه جيد", 
-    //     city : "المهبل",
-    //     ticketURL : "https://www.undertheradar.co.nz/ticket/19532/Miss-June.utr",
-    //     soldOut : true
-    // },
-    // {
-    //     date : "2023-12-25", 
-    //     venue : "The Gates Of Hell", 
-    //     country : "Australia", 
-    //     city : "Geelong",
-    //     ticketURL : "www.google.com",
-    //     soldOut : false
-    // }
+    {
+        date : "2023-09-02", 
+        venue : "Neck Of The Woods", 
+        country : "New Zealand", 
+        city : "Auckland",
+        ticketURL : "https://www.https://www.undertheradar.co.nz/ticket/21535/Miss-June---MLE-Single-Release-Tour.utr.co.nz/gig/85872/Miss-June---MLE-Single-Release-Tour.utr",
+        soldOut : false
+    },
+    {
+      date : "2023-09-30", 
+      venue : "The Yot Club", 
+      country : "New Zealand", 
+      city : "Raglan",
+      ticketURL : "https://www.undertheradar.co.nz/gig/https://www.undertheradar.co.nz/ticket/21537/Miss-June---MLE-Single-Release-Tour.utr/Miss-June---MLE-Single-Release-Tour.utr",
+      soldOut : false
+    },
+    {
+        date : "2023-10-06", 
+        venue : "Yours *All Ages", 
+        country : "New Zealand", 
+        city : "Dunedin",
+        ticketURL : "https://www.undertheradar.co.nz/gig/https://www.undertheradar.co.nz/gig/85874/Miss-June---MLE-Single-Release-Tour---All-Ages.utr/Miss-June---MLE-Single-Release-Tour---All-Ages.utr",
+        soldOut : false
+    },
+    {
+      date : "2023-10-07", 
+      venue : "Wunderbar", 
+      country : "New Zealand", 
+      city : "Lyttelton",
+      ticketURL : "https://www.https://www.undertheradar.co.nz/ticket/21540/Miss-June---MLE-Single-Release-Tour.utr.co.nz/gig/85874/Miss-June---MLE-Single-Release-Tour---All-Ages.utr",
+      soldOut : false
+    },
+    {
+        date : "2023-10-13", 
+        venue : "Parrotdog Bar *Free Show*", 
+        country : "New Zealand", 
+        city : "Wellington",
+        ticketURL : "https://www.undertheradar.co.nz/gig/85876/Miss-June---MLE-Single-Release-Tour---Free-Show.utr",
+        soldOut : false
+    }
 ];
 
 // #~#~#~#~#~#~#~#~#~#~#~# MERCH #~#~#~#~#~#~#~#~#~#~#~#
