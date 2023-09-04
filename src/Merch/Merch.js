@@ -5,6 +5,7 @@ import { currentMerch, merchShopURL } from '../variables';
 import Button from '../Button/Button.js';
 
 var totalMerchItems = currentMerch.length;
+console.log( totalMerchItems )
 
 function Merch() {
   const width  = ( window.innerWidth || document.documentElement.clientWidth || 

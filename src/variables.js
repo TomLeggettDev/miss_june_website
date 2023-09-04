@@ -67,94 +67,55 @@ const upcomingShows = [
 ];
 
 // #~#~#~#~#~#~#~#~#~#~#~# MERCH #~#~#~#~#~#~#~#~#~#~#~#
-const merchShopURL = "https://missjune.bandcamp.com/merch";
+const merchShopURL = "https://missjune.bigcartel.com/";
 
 const currentMerch = [
-  // {
-  //   name : "MJ LP #2",
-  //   details: "Special Edition Red Vinyl",
-  //   imageURL : "/images/merch-images/test_merch.jpg",
-  //   URL : "https://www.pornhub.com/",
-  //   price : "$55.00 NZD",
-  //   altText : "Merch Item"
-  // },
-  // {
-  //   name : "MJ LP #2",
-  //   details: "Vinyl (Black)",
-  //   imageURL : "/images/merch-images/test_merch.jpg",
-  //   URL : "https://www.pornhub.com/",
-  //   price : "$50.00 NZD",
-  //   altText : "Merch Item"
-  // },
-  // {
-  //   name : "Bad Luck Party",
-  //   details: "Special Edition Blue Vinyl",
-  //   imageURL : "/images/merch-images/test_merch.jpg",
-  //   URL : "https://www.pornhub.com/",
-  //   price : "$55.00 NZD",
-  //   altText : "Merch Item"
-  // },
-  // {
-  //   name : "Bad Luck Party",
-  //   details: "Vinyl (Black)",
-  //   imageURL : "/images/merch-images/test_merch.jpg",
-  //   URL : "https://www.pornhub.com/",
-  //   price : "$55.00 NZD",
-  //   altText : "Merch Item"
-  // },
-  // {
-  //   name : "Best Girl / Twitch",
-  //   details: "7\" Vinyl",
-  //   imageURL : "/images/merch-images/test_merch.jpg",
-  //   URL : "https://www.pornhub.com/",
-  //   price : "$55.00 NZD",
-  //   altText : "Merch Item"
-  // },
-  // {
-  //   name : "Miss June",
-  //   details: "Necklace",
-  //   imageURL : "/images/merch-images/test_merch.jpg",
-  //   URL : "https://www.pornhub.com/",
-  //   price : "$55.00 NZD",
-  //   altText : "Merch Item"
-  // },
-  // {
-  //   name : "Christafari Pedal",
-  //   details: "Analog Distortion",
-  //   imageURL : "/images/merch-images/test_merch.jpg",
-  //   URL : "https://www.pornhub.com/",
-  //   price : "$55.00 NZD",
-  //   altText : "Merch Item"
-  // },
-  // {
-  //   name : "MLE",
-  //   details: "T-Shirt",
-  //   imageURL : "/images/merch-images/test_merch.jpg",
-  //   URL : "https://www.pornhub.com/",
-  //   price : "$55.00 NZD",
-  //   altText : "Merch Item"
-  // },
-  // {
-  //   name : "Miss June",
-  //   details: "Poster 40 x 32cm",
-  //   imageURL : "/images/merch-images/test_merch.jpg",
-  //   URL : "https://www.pornhub.com/",
-  //   price : "$55.00 NZD",
-  //   altText : "Merch Item"
-  // },
+  {
+    name : "BAD LUCK PARTY",
+    details: "Black Vinyl",
+    imageURL : "/images/merch-images/bad-luck-party-lp.jpg",
+    URL : "https://missjune.bigcartel.com/product/black-vinyl",
+    price : "$40.00 NZD",
+    altText : "Bad Luck Party LP"
+  },
+  {
+    name : "DON'T WANNA BE YOUR DOG",
+    details: "Pink Tee",
+    imageURL : "/images/merch-images/pink-dog-tee.jpg",
+    URL : "https://missjune.bigcartel.com/product/miss-june-dont-wanna-be-your-dog-pink",
+    price : "$40.00 NZD",
+    altText : "I Don't Wanna Be Your Dog - Pink Tee"
+  },
+  {
+    name : "DON'T WANNA BE YOUR DOG",
+    details: "Black Tee",
+    imageURL : "/images/merch-images/black-dog-tee.jpg",
+    URL : "https://missjune.bigcartel.com/product/miss-june-dont-wanna-be-your-dog-black-tee",
+    price : "$40.00 NZD",
+    altText : "I Don't Wanna Be Your Dog - Black Tee"
+  },
+  {
+    name : "MLE",
+    details: "Black Tee",
+    imageURL : "/images/merch-images/black-mle-tee.jpg",
+    URL : "https://missjune.bigcartel.com/product/miss-june-mle-black-tee",
+    price : "$40.00 NZD",
+    altText : "MLE - Black Tee"
+  },
+  {
+    name : "MLE",
+    details: "Green Tee",
+    imageURL : "/images/merch-images/green-mle-tee.jpg",
+    URL : "https://missjune.bigcartel.com/product/miss-june-mle-green-tee",
+    price : "$40.00 NZD",
+    altText : "MLE - Green Tee"
+  },
 ];
 
 const bandBiography = [
   "Raised in the embers of punk rock, Miss June has created a blistering, reckless sound full of melodic hooks and overdriven riffs that are at once immediately recognisable and yet entirely their own. Miss June harness jagged, noisy guitars filtered through the unrivalled stage presence." 
   , "Described as \"some unholy union between Sonic Youth and Le Tigre\", the NZ four piece has built a reputation for fierce, formidable and head-spinning live shows."
 ];
-
-//const oldBio = ["Miss June is what happens when angst matures. Raised in the embers of punk rock, Miss June harness jagged, noisy guitars filtered through the unrivalled stage presence of frontperson Annabel Liddell, unafraid, unapologetic and ready to wake up the music scene.",
-//                         "Described as \"some unholy union between Sonic Youth and Le Tigre\", the NZ four piece, completed by the music school alumni recruited by Liddell – guitarist Jun Park, bass player Chris Marshall and drummer Tom Leggett – has built a reputation for fierce, formidable and head-spinning live shows.",
-//                         "Miss June have caught the attention of acts like The Foo Fighters, Shellac, Wolf Alice, Idles and Die! Die! Die!, who have all eagerly harnessed their support on stage.",
-//                         "Combining elements of post-punk, no-wave and rock, Miss June hold close their DIY roots while creating a blistering, reckless sound full of melodic hooks and overdriven riffs that are at once immediately recognizable and yet entirely their own.",
-//                         "Miss June are fast growing into a force to be reckoned with. Miss June demand attention. There has never been a better time for Miss June to make noise. Get in now. Or miss out.",
-// ];
 
 export { videosToDisplay,
          merchShopURL,
