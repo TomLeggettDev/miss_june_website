@@ -94,22 +94,22 @@ const currentMerch = [
     price : "$40.00 NZD",
     altText : "I Don't Wanna Be Your Dog - Black Tee"
   },
-  {
-    name : "MLE",
-    details: "Black Tee",
-    imageURL : "/images/merch-images/black-mle-tee.jpg",
-    URL : "https://missjune.bigcartel.com/product/miss-june-mle-black-tee",
-    price : "$40.00 NZD",
-    altText : "MLE - Black Tee"
-  },
-  {
-    name : "MLE",
-    details: "Green Tee",
-    imageURL : "/images/merch-images/green-mle-tee.jpg",
-    URL : "https://missjune.bigcartel.com/product/miss-june-mle-green-tee",
-    price : "$40.00 NZD",
-    altText : "MLE - Green Tee"
-  },
+  // {
+  //   name : "MLE",
+  //   details: "Black Tee",
+  //   imageURL : "/images/merch-images/black-mle-tee.jpg",
+  //   URL : "https://missjune.bigcartel.com/product/miss-june-mle-black-tee",
+  //   price : "$40.00 NZD",
+  //   altText : "MLE - Black Tee"
+  // },
+  // {
+  //   name : "MLE",
+  //   details: "Green Tee",
+  //   imageURL : "/images/merch-images/green-mle-tee.jpg",
+  //   URL : "https://missjune.bigcartel.com/product/miss-june-mle-green-tee",
+  //   price : "$40.00 NZD",
+  //   altText : "MLE - Green Tee"
+  // },
 ];
 
 const bandBiography = [
