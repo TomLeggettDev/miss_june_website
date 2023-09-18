@@ -32,7 +32,7 @@ function Merch() {
         { (numItemsToDisplay + incrementAmount <= totalMerchItems) && 
           <button className="Button" onClick={changeNumberOfDisplayedItems}>
               SHOW MORE
-              <i class="fa-solid fa-arrow-down"></i>
+              <i className="fa-solid fa-arrow-down"></i>
           </button>
         }
         { (numItemsToDisplay + incrementAmount > totalMerchItems) && 

@@ -25,7 +25,7 @@ function Watch() {
             </div>
             {/* <div className="videoControls">
                 <a className="videoControl" onClick={() => changeVideo('prev')}>
-                    <i class="fa-solid fa-angle-left fa-2xl"></i>
+                    <i className="fa-solid fa-angle-left fa-2xl"></i>
                 </a>
             </div> */}
 
@@ -38,7 +38,7 @@ function Watch() {
 
             {/* <div className="videoControls">
                 <a className="videoControl" onClick={() => changeVideo('next')}>
-                    <i class="fa-solid fa-angle-right fa-2xl"></i>
+                    <i className="fa-solid fa-angle-right fa-2xl"></i>
                 </a>
             </div> */}
         

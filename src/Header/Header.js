@@ -13,7 +13,7 @@ function Header() {
 
   return (
     <header id="header">
-      <div class='logo'><img src={process.env.PUBLIC_URL + "MissJuneLogoNav.png"} alt="Logo"></img></div>
+      <div className='logo'><img src={process.env.PUBLIC_URL + "MissJuneLogoNav.png"} alt="Logo"></img></div>
       <i id="navBarIcon" className={`fa-solid fa-lg fa-bars icon ${isNavBarHidden ? '' : 'active fa-x'}`}
         onClick={toggleNavbar}></i>
       <nav id="navBar" className={isNavBarHidden ? 'hidden' : ''}>
